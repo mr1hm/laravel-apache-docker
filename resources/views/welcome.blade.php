@@ -48,6 +48,10 @@
                 font-size: 84px;
             }
 
+            .title > small {
+                font-size: 12px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -81,7 +85,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Kevin Ihm
+                    <small>I think I'm funny. But, not many people think so.</small>
                 </div>
 
                 <div class="links">
@@ -92,6 +97,9 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    @foreach ($links as $link)
+                        <a href="{{$link->url}}">{{$link->title}}</a>
+                    @endforeach
                 </div>
             </div>
         </div>
