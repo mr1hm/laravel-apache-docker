@@ -86,7 +86,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Kevin Ihm
-                    <small>I think I'm funny. But, not many people think so.</small>
+                    <small>I think I'm funny. Most people disagree.</small>
                 </div>
 
                 <div class="links">
